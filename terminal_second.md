@@ -7,7 +7,8 @@
 
 ### Ответ
 
-**
+**это buildin - встроенная в shell команда**
+![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_1.png "cd")
 
 
 2. Какая альтернатива без pipe для команды `grep <some_string> <some_file> | wc -l`?   

@@ -8,7 +8,7 @@
 
 ### Ответ
 
-
+![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_10.png "strace cd")
 
 2. Попробуйте использовать команду `file` на объекты разных типов в файловой системе. Например:
 

@@ -84,7 +84,7 @@
 
 **Пришлось поискать. И далеко не все из описанного табается**
 
-![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_23.png "snoop")
+![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_233.png "snoop")
 
 7. Чем отличается последовательность команд через `;` и через `&&` в bash? Например:
 

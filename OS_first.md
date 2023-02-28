@@ -41,7 +41,7 @@
 
 ### Ответ
 
-**Нет, кроме того, что висит строка в таблице процессов - сам процесс уже завершен, если он в статусе зомби**
+**Нет, кроме того, что висит строка в таблице процессов - сам процесс уже завершен с непонятным кодом возврата, если он в статусе зомби**
 
 5. В IO Visor BCC есть утилита `opensnoop`:
 
@@ -54,7 +54,7 @@
 
 ### Ответ
 
-**В первую секунду работы утилиты он вывел несколько одинаковых сообщений такого типа: **
+**В первую секунду работы утилиты он вывел несколько одинаковых сообщений такого типа:**
 
 ![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_15.png "snoop")
 
@@ -62,11 +62,29 @@
 
 ![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_16.png "snoop")
 
+**С аргументом -d 1 он остановился вот тут:**
+
+![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_17.png "snoop")
+
 6. Какой системный вызов использует `uname -a`? Приведите цитату из man по этому системному вызову, где описывается альтернативное местоположение в `/proc` и где можно узнать версию ядра и релиз ОС.
 
 ### Ответ
 
+**-a  - это all, то есть все, кроме -p и -i:**
 
+![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_18.png "snoop")
+
+![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_22.png "snoop")
+
+**Совпадает! Только один аргумент будто два раза в -а выводится** 
+
+**Он меня за полным маном почему-то отправил в интернеты. По ссылке вот такая информация:**
+
+![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_21.png "snoop")
+
+**Нашла где это, проверила**
+
+![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_20.png "snoop")
 
 7. Чем отличается последовательность команд через `;` и через `&&` в bash? Например:
 

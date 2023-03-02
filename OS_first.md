@@ -126,7 +126,7 @@
 
 >R    running or runnable (on run queue)  
 >S    interruptible sleep (waiting for an event to complete)  
->+    is in the foreground process group  
+>\+    is in the foreground process group  
 >s    is a session leader
 
 **То есть STAT - просто заголовок, R - процессы запущенные или в очереди выполнения, S - в состоянии сна. + - это дополнителный символ что процесс на переднем плане, s - что это лидер сеанса(?)**

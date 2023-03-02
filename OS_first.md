@@ -122,6 +122,8 @@
 
 9. Используя `-o stat` для `ps`, определите, какой наиболее часто встречающийся статус у процессов в системе. В `man ps` изучите (`/PROCESS STATE CODES`), что значат дополнительные к основной заглавной букве статуса процессов. Его можно не учитывать при расчёте (считать S, Ss или Ssl равнозначными).
 
+### Ответ
+
 ![скрин](https://github.com/Jlljully/devops_netology3/blob/main/Screenshot_24.png "stat")
 
 >R    running or runnable (on run queue)  

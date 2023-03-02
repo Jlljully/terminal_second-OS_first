@@ -113,11 +113,12 @@
 >-u  Treat unset variables as an error when substituting.  
 >-x  Print commands and their arguments as they are executed.  
 >-o option-name  
->     pipefail     the return value of a pipeline is the status of  
->                  the last command to exit with a non-zero status,  
->                  or zero if no command exited with a non-zero status  
+>     pipefail       
+>     the return value of a pipeline is the status of  
+>     the last command to exit with a non-zero status,    
+>     or zero if no command exited with a non-zero status  
 
-**То  есть**
+**То  есть, он прерывает, если появлется код возврата отличный от 0; проверяет заданные переменные; пихает все команды в стандартный вывод (поможет увидеть где споткнулись) и возвращает статус всего пайплайна, а не только последнего выполненного**
 
 9. Используя `-o stat` для `ps`, определите, какой наиболее часто встречающийся статус у процессов в системе. В `man ps` изучите (`/PROCESS STATE CODES`), что значат дополнительные к основной заглавной букве статуса процессов. Его можно не учитывать при расчёте (считать S, Ss или Ssl равнозначными).
 
